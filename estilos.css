@@ -25,7 +25,7 @@ a.whatsapp_link{
     right: 0px;
 }
 main{
-    font-size: 16px;
+    font-size: 30px;
     text-align: center;
 
 }
@@ -41,3 +41,11 @@ a.enlace{
 a.enlace:hover{
     background-color: #ff9e5e;
 }
+@media (max-width: 600px) {
+    html {
+      font-size: 13px;
+    }
+      main {
+          font-size:20px;
+      }
+  }
