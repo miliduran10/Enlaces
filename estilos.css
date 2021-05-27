@@ -13,6 +13,7 @@ img.logo_natura{
     width:150px;
     height:150px;
     border-radius:100px;
+    text-align: center;
 }
 img.logo_whatsapp{
     width:150px;
@@ -25,7 +26,6 @@ a.whatsapp_link{
 }
 main{
     font-size: 16px;
-    font-weight: 700;
     text-align: center;
 
 }
