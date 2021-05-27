@@ -1,5 +1,6 @@
 html{
     font-family: Karla, sans-serif; 
+    font-size: 16px;
 }
 body{
     color: rosybrown;
@@ -32,10 +33,18 @@ a.enlace{
     background-color: #ff7948;
     border-style: solid;
     border-color: #ff7948;
-    width: 500px;
+    width: 80%;
     display: inline-block;
     color: aliceblue;
 }
 a.enlace:hover{
     background-color: #ff9e5e;
+}
+@media(max-width:480px){
+    html{
+        font-size: 20px;
+    }
+    main{
+        font-size: 100px;
+    }
 }
