@@ -1,0 +1,41 @@
+html{
+    font-family: Karla, sans-serif; 
+}
+body{
+    color: rosybrown;
+    background-color: #ffc2b4;
+}
+header{
+    text-align: center;
+}
+img.logo_natura{
+    width:150px;
+    height:150px;
+    border-radius:100px;
+}
+img.logo_whatsapp{
+    width:150px;
+    height:150px;
+}
+a.whatsapp_link{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+main{
+    font-size: 30px;
+    text-align: center;
+
+}
+a.enlace{
+    text-decoration: none;  /* La propiedad - none - elimina le linea bajo el enlace */
+    background-color: #ff7948;
+    border-style: solid;
+    border-color: #ff7948;
+    width: 500px;
+    display: inline-block;
+    color: aliceblue;
+}
+a.enlace:hover{
+    background-color: #ff9e5e;
+}
